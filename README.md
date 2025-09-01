@@ -37,7 +37,7 @@ A variety of features were extracted to train the classifier:
 <table>
   <tr>
     <td>
-      <img src="data/images/top_liwc.png.png" alt="Top LIWC" width="300" />
+      <img src="data/images/top_liwc.png" alt="Top LIWC" width="300" />
       <p>Top LIWC Categories</p>
     </td>
     <td>
