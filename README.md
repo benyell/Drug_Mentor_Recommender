@@ -1,5 +1,5 @@
 # Drug_Mentor_Recommender
-An end-to-end NLP system that analyzes a text to identify drug addiction stages and enables personalized mentor recommendations.\
+An end-to-end NLP system that analyzes a text to identify drug addiction stages and enables personalized mentor recommendations.
 
 The project's main goal is to identify users' stages of addiction or recovery and to facilitate personalized peer support through a mentor recommendation system.
 
@@ -21,7 +21,7 @@ This project has been deployed on Hugging Spaces: https://huggingface.co/spaces/
 
 ### Data
 
-The project utilized a dataset of 10,000 posts from drug addiction-related subreddits on Reddit. This is a subset of 3,152 posts that were manually labeled to create a gold standard dataset.\ 
+The project utilized a dataset of 10,000 posts from drug addiction-related subreddits on Reddit. This is a subset of 3,152 posts that were manually labeled to create a gold standard dataset.
 
 The posts were categorized into five classes: Addicted, Early Recovery, Maintaining Recovery, Advanced Recovery, and Others.
 
@@ -84,11 +84,11 @@ Three non-neural classifiers were evaluated using 10-fold cross-validation and S
 
 ## Results
 
-Logistic Regression emerged as the top-performing model, achieving the highest accuracy and F1-scores.\
+Logistic Regression emerged as the top-performing model, achieving the highest accuracy and F1-scores.
 
-Overall Accuracy: 70%\ 
+Overall Accuracy: 70%
 
-Mentor Recommender Accuracy: The specialized classifier for identifying users with an "intention to recover" achieved an accuracy of 75.4%.\
+Mentor Recommender Accuracy: The specialized classifier for identifying users with an "intention to recover" achieved an accuracy of 75.4%.
 
 Linguistic analysis revealed significant differences in language usage between different recovery stages, with Addicted posts showing a more negative emotional tone compared to Advanced Recovery posts.
 
