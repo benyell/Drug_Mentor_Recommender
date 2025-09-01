@@ -21,7 +21,7 @@ This project has been deployed on Hugging Spaces: https://huggingface.co/spaces/
 
 ### Data
 
-The project utilized a dataset of 10,000 posts from drug addiction-related subreddits on Reddit. This is a subset of 3,152 posts that were manually labeled to create a gold standard dataset.
+The project utilized a dataset of 10,000 posts from drug addiction-related subreddits on Reddit. A subset of 3,152 posts were manually labeled to create a gold standard dataset.
 
 The posts were categorized into five classes: Addicted, Early Recovery, Maintaining Recovery, Advanced Recovery, and Others.
 
